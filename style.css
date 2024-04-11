@@ -1,0 +1,62 @@
+#Body{
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    text-align: center;
+    margin: 3%;
+    /* border-radius: 20px; */
+}
+#Header{
+   display: flex;
+   margin-left: 10%;
+   gap: 30%;
+}
+#LandingPage{
+    display: flex;
+    gap: 20%;
+    margin-left: 10%;
+
+}
+
+button{
+    background-color: mediumturquoise;
+    color: black;
+    width: 150px;
+    border-radius: 20%;
+    height: 50px;
+    border: none;
+}
+#Login{
+    display: flex;
+    gap: 30%;
+}
+#Title{
+    gap: 10%;
+    display: flex;
+}
+#mywords{
+    margin-top: 10%;
+    font-size: xx-large;
+}
+#myimage{
+    margin-right: 5%;
+}
+#Button2{
+    margin-left: 10%;
+}
+#Socials{
+    display: flex;
+    margin-left: 10%;
+    gap: 5%;
+    margin-top: 10%;
+}
+#favicon{
+    gap: 10%;
+    gap: 10%;
+}
+@media only screen and (max-width:768px){
+    #Header{
+    flex-wrap: wrap;
+     }
+}
