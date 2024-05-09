@@ -1,80 +1,186 @@
-#Body{
+#container{
     background-color: white;
-    margin: 0;
-    overflow-x: hidden;
-    justify-content: center;
-    text-align: center;
+    /* margin: -10px; */
+    /* overflow-x: hidden; */
+    /* justify-content: center; */
+    /* text-align: center; */
     margin: 3%;
-    /* border-radius: 20px; */
+    border-radius: 20px;
+    /* white-space: initial; */
+    
 }
-#Header{
+#containinglogo{
    display: flex;
-   margin-left: 10%;
-   gap: 30%;
+   margin-left: 5%;
+   gap: 20%;
 }
-#LandingPage{
+#landingPage{
     display: flex;
     gap: 20%;
     margin-left: 10%;
 
 }
 
-button{
-    background-color: mediumturquoise;
-    color: black;
+ button{
+    background-color:rgb(118, 185,179);
+    color: white;
     width: 150px;
-    border-radius: 20%;
+    border-radius: 40px;
     height: 50px;
-    border: none;
-}
-#Login{
+    border: none; 
+} 
+#login{
     display: flex;
-    gap: 30%;
-}
-#Title{
-    gap: 10%;
-    display: flex;
-}
-#mywords{
-    margin-top: 10%;
-    font-size: x-large;
-}
-#myimage{
+    gap: 35%;
+    margin-top: 3%;
     margin-right: 5%;
-    width: "400px";
+
+}
+#navbar{
+    gap: 20%;
+    display: flex;
+    margin-top: 3%;
+    text-decoration: none;
+}
+a{
+text-decoration: none;
+color: black;
+}
+#text{
+    /* margin-bottom: 60%; */
+    font-size: x-large;
+    margin-top: 5%;
+}
+#heroimage{
+   background-color: rgb(241, 198, 137);
+   border-radius: 50%;
+   width: 500px;
+   height: 500px;
+   margin-left: 0%;
+   object-fit: cover;
+   
+   
 }
 #Button2{
-    margin-left: 10%;
+    
 }
 #Socials{
     display: flex;
     margin-left: 10%;
     gap: 5%;
-    margin-top: 10%;
+    margin-top: 5%px
 }
-#favicon{
-    gap: 10%;
-    gap: 10%;
-}
-#FooterFavicon{
+#social-logos{
+    gap: 7%;
+    /* margin-: 30%; */
     display: flex;
+    margin-left: 10%;
+   
 }
-@media only screen and (max-width:768px){
-    #Header{
-    flex-wrap: wrap;
-     }
-     #mywords{
-        margin-top: 10%;
-       font-size: x-small;
-    }
-    #myimage{
-        margin-right: 5%;
-        width: "50px";
-    }
-    #FooterFavicon{
-        flex-wrap: wrap;
-    }
-    
-    
+#footer-logos{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+   
+
 
 }
+#startbutton{
+    width: 170px;
+    margin-bottom: 2px;
+    background-color: rgb(118, 185, 179);
+}
+
+#footer{
+    background-color:rgb(227, 240, 239);
+    margin-bottom: 10%;
+}
+
+#imla{
+    display: flex;
+    margin-top: 2%;
+}
+#booklogo{
+    width: 80px;
+}
+
+#startbutton{
+    margin-top: -7%;
+    width: 300px;
+    color: white;
+}
+
+#holder{
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    margin-left:10% ;
+    margin-bottom: 20%;
+}
+#holder input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 40px;
+    padding: 15%;
+    width: 600px;
+}
+#holder button{
+    position: absolute;
+    margin-left: 300%;
+    padding: 8%;
+    top: 15%;
+    width: 70%;
+    border: none;
+    background-color: rgb(118,185,179);
+    border-radius: 40px;
+}
+#lady{
+    width: 600px;
+}
+#footer-text{
+    text-align: center;
+    font-size: x-large;
+
+}
+@media screen and (min-width:481px) and (max-width:564px){
+    #containinglogo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        gap: 15%;
+     }
+     #lady{
+        width: 200px;
+    }
+    #text{
+        /* margin-bottom: 60%; */
+        font-size:small;
+        margin-top: 5%;
+    }
+    #landingPage{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        margin-left: 10%;
+    
+    }
+    #navbar{
+        gap: 10%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        text-decoration: none;
+    }
+    #heroimage{
+        background-color: rgb(241, 198, 137);
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: 0%;
+        object-fit: cover;
+        
+        
+     }
+}
+   
